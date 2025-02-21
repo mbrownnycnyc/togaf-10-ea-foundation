@@ -156,7 +156,8 @@
 * Consider that you can describe a `Capability Architecture` by defining the `Architecture Abstraction` levels for that `Capability Architecture`.
 
 ## building blocks - EXAM
-> [!NOTE] EXAM GOAL
+> [!NOTE]
+> EXAM GOAL
 > Explain what building blocks are and their use in the ADM
 
 * Building Blocks ("bb"): the potentially re-usable component delivers architectures and solutions.
@@ -204,7 +205,8 @@
 
 
 ### suitability and applicability
-> [!NOTE] EXAM GOAL
+> [!NOTE]
+> EXAM GOAL
 > explain why the TOGAF standard is suitable for use as a framework for Enterprise Architecture
 
 * TOGAF enables organizations to operate in an efficient & effective way using a proven and recognized set of best practices to address business and technology trend.
@@ -224,7 +226,8 @@
 * may be used as a standalone framework
 
 ### structure of TOGAF standard
-> [!NOTE] EXAM GOAL
+> [!NOTE]
+> EXAM GOAL
 > describe where guidance on how to apply the TOGAF Standard is provided
 
 * TOGAF Standard documents are:
@@ -247,7 +250,8 @@
     * ...many more
 
 ### Breaking down documents that explain the ADM
-> [!NOTE] EXAM GOAL
+> [!NOTE]
+> EXAM GOAL
 > briefly describe how the ADM and Supporting Guidelines and Techniques relate to each other
 
 * individual guidelines & techniques are described separately so that they can be referenced from the relevant points in the ADM
@@ -260,7 +264,8 @@
 * white papers & guides: classified and references in the TOGAF library
 
 ### what is the TOGAF library
-> [!NOTE] EXAM GOAL
+> [!NOTE]
+> EXAM GOAL
 > describe where guidance on how to apply the TOGAF Standard is provided
 
 * portfolio of additional gudiance material supports the practical application
@@ -271,7 +276,8 @@
 * maintained under the governance of The Open Group Architecture Forum
 
 ## enterprise architecture purpose
-> [!NOTE] EXAM GOAL
+> [!NOTE]
+> EXAM GOAL
 > explain the purpose of Enterprise Architecture
 
 * `Enterprise Architecture` is a framework for continuous change links strategic direction and business value.
@@ -288,8 +294,9 @@
 * addresses the end state, performs prference trade-off and value realization for big and little questions
 
 ## enterprise architecture benefits
-> [!NOTE] EXAM GOAL
-> list the busienss benefits of having an Enterprise Architecture
+> [!NOTE]
+> EXAM GOAL
+> list the business benefits of having an Enterprise Architecture
 
 * better return on existing investment & reduced risk for future investments
 * more effective and efficient digital transformation and operations
@@ -299,8 +306,7 @@
 * right balance across conflicting demands
 
 
-> [!IMPORTANT] PAUSED Feb 21
+> [!IMPORTANT]
+> PAUSED Feb 21
 > udemy.com/course/togaf-10-ea-foundation/learn/lecture/43351530#content
 
-> [!IMPORTANT]
-> test
