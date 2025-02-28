@@ -305,8 +305,166 @@
 * faster, simpler, and cheaper procurement
 * right balance across conflicting demands
 
+# Architecture Development Method (ADM)
+
+## ADM overview
+> [!NOTE]
+> EXAM GOAL
+> briefly describe the ADM, its phases and their purposes
+
+![](2025-02-28-05-53-43.png)
+
+* the method developes and manages the lifecycle of enterprise architecture
+* core of the TOGAF Standard
+* tested and repeatable process for developing architectures
+* establishes an architecture framework
+* governs the realization and transition of architectures
+* iterative cycle of continuous architecture definition and realization
+* transforms enterprises in a controlled manner in response to business goals and opportunities
+* step-by-step approach with 10 phases (8 arranged in a cycle, as noted in the above, the preliminary and requirementse management phase are not arranged in a cycle)
+* recommendations to define and deploy an enterprise architecture
+* should be adapted to the needs to fthe enterprise and to support different architecture styles
+* is not a "waterfall" method and does nto mandate a specific sequence (Phases and Stops)
+* reference mode:
+  * deliver solutions in an architected way
+  * identify interacting components and relationships
+
+### phases of the ADM
+* Preliminary phase:
+  * preparation and initiation activities that are required to create an Architecture Capability
+    * define roles
+    * define processes
+    * establish committees that meet to discuss architectures
+  * customize the TOGAF framework
+    * TOGAF is focused on recommendations
+    * should adapt to meet needs of enterprise
+  * define Architecture Principles
+    * define general rules and guidelines
+
+### phase a: architecture vision
+* initial phase of an architecture development cycle
+* define the scope of the archtiecture development initiation
+* stakeholder identification
+* architecture vision: rough overview of the architecture to be developed
+* obtain approval to proceed with the architecture development
+
+### phases B, C, D
+* develop baseline & target of... to support the agreed Architecture Vision
+  * Phase B: business architecture
+  * Phase C: Information Systems Architecture
+    * data architecture
+    * application architecture
+  * Phase D: technology architecture
+
+### phase e: opportunities and solutions
+* conduct the initial implementation planning
+* identify delivery vehicles for the architecture defined in the previous phases
+
+### phase f: migration planning
+* describe how to move from the Baseline to the Target Architectures
+* finalize a detailed Implementation and Migration Plan
+  * projects will be executed
+
+### phase g: implementation governance
+* provide an architecture oversight of the implementation and migration plan
+
+### phase H: architecture change management
+* establish procedures for managing change to the new architecture
+* this phase remains "running", it is a holding phase since you've done all the work...
+  * when you receive architectural changes, you decide whether you are to just add a change to the archtiecture or if you are to re-write the architecture entirely
+
+### requirements management phase
+* continuous phase for requirements management
+* ensures that any changes to requirements are handled through appropriate governance processes and are reflected in all other phases
+* operates the process of managing architecture requirements throughout the ADM
+
+### what is generated at each phase
+* each phase generates an output which describe an aspect of the architecture
+  * examples: "how do we describe the architecture?"
+    * business capability map
+    * organization map
+    * application data matrix
+* status of outputs at each stage is defined
+  * create a deliverable architecture definition doc as output of Phase A first draft
+    * this doc is like a container for artifacts created during a project
+    * the doc spans all four architecture domains (business, data, app, technology )
+  * the deliverable architecture definition doc is enriched over phases B, C, D, E, and finalized in phase F
+* output from an early phase may be modified in a later phase
+
+## Artifacts and deliverables
+### Artifacts
+
+![](2025-02-28-06-18-56.png)
+
+* artifact: architectural work product that describes aspects of the Enterprise Architecture
+* artifacts can be classified as catalogs, matrices or diagrams
+  * collect data:
+    * catalogs: list of things (ex: business capability catalog)
+    * matrices: relationships between things (ex: capability / organization matrix)
+  * render data:
+    * diagrams: picture of things (ex: organization map)
+
+### deliverables
+* deliverable: work product that is contractually specified and approved
+* delivers:
+  * are formally reviewed, approved and signed off by the stakeholders
+  * are usually a document (ex: Architecture Definition Document)
+  * represent the output of projects and is archived at completion
+  * may be transitioned into an Architecture Repository (ex: reference model, standard)
+
+### relate artifacts and deliverables
+> [!NOTE]
+> EXAM GOAL
+> describe the difference between "draft" and "approved" deliverables
+
+* deliverables contain artifacts
+* deliverables are managed through a version numbering policy
+* draft: documents that are under development and have not undergone any formal review and approval process
+* approved: documentrs that have been reviewed and approved
+  * note that approved does not mean that the document is finalized given...
+    * the document may evolve during subsequent ADM phases
+    * but may only be changed through a change control and governance process
+* Example:
+  * deliverable: architecture definition document which contains the artifacts...
+    * business capability map
+    * process flow diagram
+    * use-case diagram
+
+## stakeholder, concerns, architecture viewpoints and architecture views
+> [!NOTE]
+> EXAM GOAL
+> define and explain the following concepts: stakeholders, concerns, viewpoints and views
+
+![](2025-02-28-06-28-38.png)
+
+### stakeholder
+* represents an individual, team, organization or class thereof, having an interest in a system
+
+### concern
+* represents an interest in a system relevant to one or more of its stakeholders and their goals
+* may pertain to any aspect of the system's functionaing, development or operation, including considerations such as performance, reliability, security, distribution and evolvability
+* may determine the acceptability of the system
+* can be general requirement type (ex: availability)
+* may lead to the definition of several requirements
+
+### relationship between stakeholders and concerns
+* stakeholder concerns lead to requirements
+* identifying concerns helps ensure stakeholders interests are addrssed and requirements are identified
+
+### architecture viewpoint
+* represents where you are looking from on a system
+* defines conventions for constructing, interpreting and using an architecture view to address specific concerns about a system-of-interest
+* can also be called the definition or schema for that kind of architecture view
+* is generic and can be stored in viewpoint libraries for re-use
+
+### architecture view
+* representation of a system from the perspective of a related set of concerns
+* consists of one or more architecture models of the system
+* is always specific to the architecture for which it is created and meaningful to stakeholders
+* enables the archtiecture to be communicated to and understoof by the stakeholders
+
+### relationship between viewpoint and view
+* every architecture view has an associated architecture viewpoint that describes it, at least implicitly.
 
 > [!IMPORTANT]
-> PAUSED Feb 21
-> udemy.com/course/togaf-10-ea-foundation/learn/lecture/43351530#content
-
+> STOPPED feb 28 udemy.com/course/togaf-10-ea-foundation/learn/lecture/43351620#overview
