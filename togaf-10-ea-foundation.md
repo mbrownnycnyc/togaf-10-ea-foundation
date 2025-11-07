@@ -468,3 +468,79 @@
 
 > [!IMPORTANT]
 > STOPPED feb 28 udemy.com/course/togaf-10-ea-foundation/learn/lecture/43351620#overview
+
+# ADM: Preliminary Phase
+
+![](2025-11-07-14-46-41.png)
+
+## Purpose
+> [!NOTE]
+> EXAM GOAL
+> briefly explaint he purpose of the Preliminary Phase in developing an Enterprise Architecture Capability
+
+* preparation and initiation activities to create an Architecture Capability
+* Customizing the TOGAF Frammework
+* Definition of archtiecture priciples
+
+### preparation and initiation activities
+* what do we need to acheive these goals
+* what is the enterprise architecture maturity target
+* what are the roles you need for enterprise architecture management, and what are their skills and responsibilities
+* partition the architecture to teams
+* establish committees
+  * an enterprise archtiecture board
+* develop processes for enterprise architecture (e.g. budgeting, approval processes for archtiecture)
+* define guidelines for architecture work
+* introduce tools and methods that support architecture work (simple file storage to professional architecture dedicated tools)
+
+### defining architecture principles
+* architecture principles are general rules and guidelines defining and guiding the organization
+
+## Objectives
+> [!NOTE]
+> EXAM GOAL
+> Describe the objectives of the Preliminary Phase
+
+1. determine the Architecture Capability desired by the organization
+  * review the organizational context for conducting EA
+    * need to assess the environment and build out the Architecture Capability to suit this environment
+    * understand the goals, structures, etc
+  * identify and scope the elements of the enterprise organizations affected by the Architecture Capability
+    * if we implement EA mgmt tomorrow, who and what will be affected/influenced by it?  who or what interacts with enterprise architecture?
+      * business units, policies/standards, etc
+  * identity the established frameworks, methods and processes that intersect with the Architecture Capability
+    * if we already adapted a framework for a capability, then they need to be merged or otherwise used.
+  * establish a Capability Maturity target
+    * [TOGAF library series guide on Architecture Maturity models](https://publications.opengroup.org/g203)
+2. establish the [Architecture Capability](https://publications.opengroup.org/g184)
+  * define and establish the Organizational Model for EA
+  * define and establish the detailed process and resources for Architecture Governance
+  * select and implement tools that support the Architecture Capability
+  * define the Architecture Principles 
+
+## summary
+* build the architecture capability
+* only build the capability to the level of maturity you need for your current architecture work
+* you can enhance the capability at any time
+
+
+## Preliminary Phase - steps
+> [!NOTE]
+> this is not on the exam
+
+1. Scope the enterprise organizations impacted
+   1. identify core enterprise units which are most affected and acheive the most value
+   2. identify soft enterprise units, seek change to their capability, but are not directly affected
+   3. identify governance bodies that will be affected
+2. confirm governance and support frameworks
+3. define and establish EA team and organization
+4. identify and esatablish Architecture Principles
+5. tailor the TOGAF framework and, if any, other selected architecture frameworks
+6. develop a strategy and implementation plan for tools and techniques
+
+## step 4: Architecture Principles
+> [!NOTE]
+> EXAM GOAL
+> briefly describe the TOGAF Standard deliverables created and consumer in different TOGAF ADM phases: Architecture Principles
+
+stopped 11/7: https://group1001.udemy.com/course/togaf-10-ea-foundation/learn/lecture/43351626#overview
