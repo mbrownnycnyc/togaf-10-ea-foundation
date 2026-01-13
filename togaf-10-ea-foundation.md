@@ -466,81 +466,131 @@
 ### relationship between viewpoint and view
 * every architecture view has an associated architecture viewpoint that describes it, at least implicitly.
 
-> [!IMPORTANT]
-> STOPPED feb 28 udemy.com/course/togaf-10-ea-foundation/learn/lecture/43351620#overview
+## ADM Phase: Preliminary Phase
 
-# ADM: Preliminary Phase
+![](2026-01-13-10-07-28.png)
 
-![](2025-11-07-14-46-41.png)
+### purpose & objectives
+* preparation and initition activities to create an Architecture Capability
+  * what do we need to acheive
+  * what is the maturity target
+  * skills responsibieilities of roles
+  * hire new employees? build teams?
+  * particition and work to teams
+  * establish ARB
+  * define processes, budgeting and approval
+  * define guidelines for work
+  * define tools (simple or complex)
+* customizing the TOGAF framework
+* 
+* definition of Architecture Principles
+  * general guidelines for which each architecture project and architecture is oriented
 
-## Purpose
-> [!NOTE]
-> EXAM GOAL
-> briefly explaint he purpose of the Preliminary Phase in developing an Enterprise Architecture Capability
-
-* preparation and initiation activities to create an Architecture Capability
-* Customizing the TOGAF Frammework
-* Definition of archtiecture priciples
-
-### preparation and initiation activities
-* what do we need to acheive these goals
-* what is the enterprise architecture maturity target
-* what are the roles you need for enterprise architecture management, and what are their skills and responsibilities
-* partition the architecture to teams
-* establish committees
-  * an enterprise archtiecture board
-* develop processes for enterprise architecture (e.g. budgeting, approval processes for archtiecture)
-* define guidelines for architecture work
-* introduce tools and methods that support architecture work (simple file storage to professional architecture dedicated tools)
-
-### defining architecture principles
-* architecture principles are general rules and guidelines defining and guiding the organization
-
-## Objectives
-> [!NOTE]
-> EXAM GOAL
-> Describe the objectives of the Preliminary Phase
-
-1. determine the Architecture Capability desired by the organization
-  * review the organizational context for conducting EA
-    * need to assess the environment and build out the Architecture Capability to suit this environment
-    * understand the goals, structures, etc
-  * identify and scope the elements of the enterprise organizations affected by the Architecture Capability
-    * if we implement EA mgmt tomorrow, who and what will be affected/influenced by it?  who or what interacts with enterprise architecture?
-      * business units, policies/standards, etc
-  * identity the established frameworks, methods and processes that intersect with the Architecture Capability
-    * if we already adapted a framework for a capability, then they need to be merged or otherwise used.
+#### objectives
+1. determine the architecture capabilities desired by the organization
+  * review the organiztional context for conducting EA
+  * identify and scope the lements of the enterprise organizations affects by the architecture Capability
+    * who or what will be affectred by EA management?  influence? interacts with it?
+      * BUs? stakeholders? processes, apps, etc
+  * identify the established frameworks, methods and procewsses that intersect with thhe architecture Capability
+    * if a framework is already established, then the TOGAF overlaps, which framework will be used?
   * establish a Capability Maturity target
-    * [TOGAF library series guide on Architecture Maturity models](https://publications.opengroup.org/g203)
-2. establish the [Architecture Capability](https://publications.opengroup.org/g184)
-  * define and establish the Organizational Model for EA
-  * define and establish the detailed process and resources for Architecture Governance
-  * select and implement tools that support the Architecture Capability
-  * define the Architecture Principles 
+    * series guide Architecture Maturity models provides techniques for evaling and establishing an architecture process
+2. establish the Architecture Capability 
+  * define and establish the Organizational Model for Enterprise Architecture
+    * 
+  * define and establish the detailed process and resources for Architecture goivernance
+  * select and implemt tools that support the Architecture Capability
+  * define the Architecture Priorities
+  * series guide: TOGAF Leaders guide to establishing and evolving an EA capability
+    * only build to the scale needed
 
-## summary
-* build the architecture capability
-* only build the capability to the level of maturity you need for your current architecture work
-* you can enhance the capability at any time
+### Steps for Preliminary Phase
+> [!IMPORTANT]
+> steps are not part of the cirriculum specifically for part 1, but are included in cirriculum of part 2
 
+* purpose: where, why, what and who relate to EA
 
-## Preliminary Phase - steps
-> [!NOTE]
-> this is not on the exam
+1. *Scope* the enterprise organizations impacted
+2. *Confirm* governance and support frameworks
+3. Define and *establish* Enterprise Architecture *team and organization*
+4. Identify and *establish Architecture Priciples*
+5. *Tailor* the *TOGAF framework* and, if any, other selected architecture *frameworks*
+6. develop a *strategy and implementation plan* for *tools and techniques*
 
-1. Scope the enterprise organizations impacted
-   1. identify core enterprise units which are most affected and acheive the most value
-   2. identify soft enterprise units, seek change to their capability, but are not directly affected
-   3. identify governance bodies that will be affected
-2. confirm governance and support frameworks
-3. define and establish EA team and organization
-4. identify and esatablish Architecture Principles
-5. tailor the TOGAF framework and, if any, other selected architecture frameworks
-6. develop a strategy and implementation plan for tools and techniques
+### Architecture Principles (step 4 of the preliminary phase)
 
-## step 4: Architecture Principles
 > [!NOTE]
 > EXAM GOAL
-> briefly describe the TOGAF Standard deliverables created and consumer in different TOGAF ADM phases: Architecture Principles
+> briefly describe the TOGAF Standard deliverables created and consumerd in different TOGAF ADM phases: architecture principles
+> explain what makes a good Architecture Principle
 
-stopped 11/7: https://group1001.udemy.com/course/togaf-10-ea-foundation/learn/lecture/43351626#overview
+#### what/why is an architecture principle
+* guide architecture development as part of the Principles Catalog
+* define the underlying general rules & guidelines for the use of resources and assets
+* form the basis for making architecture decisions
+* are intended to be enduring and seldom amended
+* reflect a level of consensus among the various elem,ents of the enterprise
+* relate back to the business objectives and key architecture drivers
+* an `architecture catalog` is formed that captures what a good architecture and solution should look like
+* influenced by emerging industry trends, enterprise mission & plans, enterprise strategic initiatives, current systems & technology and external constraints
+* provide a foundation for making architecture & planning decisions, framing policies, procedures & standards and supporting resolution of conflicting situations
+* typically developed by Enterprise Architects in confuction with key stakeholders, being approved by the Architecture Board afterwards
+* altered and removed through an amendment process after initial ratification
+* few in number, future oriented and endorced & championed by senior management
+
+#### Types of Architecture Principles
+* Business Principles
+* Data Principles
+* Application Principles
+* Technology Principles
+
+#### principle hierarchy
+
+![](2026-01-13-11-01-58.png)
+
+* Enterprise Principles set bounds for principles on lower levels
+* the hierarchy of principles starts with the overarching Enterprise Principles
+* at each hierarchical level, the principles will be elaborate on the principles inhereited from the level above
+* a lower-level principle cannot overstep the boundaries of a higher-level principle
+
+#### principle key domains
+
+* principles may be established within different domains and at different levels
+
+##### enterprise principles
+* provide a basis for decision-making throughout an enterprise
+* inform & support how an organization sets about fulfilling its msision
+* are a key element in a successful Architectur egovernance strategy
+* can have subsidiary principles within a business or organizational unit
+
+##### architecture principles
+* relate to Architecture Work
+* govern the architecture process (i.e. development, maintenance and use of the Enterprise Architecture)
+* embody the spirit and thinking of existing Enterprise Principles
+
+#### structure
+> [!NOTE]
+> EXAM GOAL
+> explain the recommended template for Architecture Principles
+
+* example:
+
+  ![](2026-01-13-11-39-44.png)
+
+* a template helps to define and use principles in a standard way
+* templates should contain:
+  * name:
+    * represents the essence of the principle
+    * is easy to remember
+  * statement:
+    * communicates succinctly and unambiguously the fundamental rule
+  * rationale:
+    * highlights the business benefits of adhering to the principle in busienss terms
+    * describes relationship to other principles, especially where tradeoffs will be required
+    * gives guidance towar5d a balanced and consistent interpretation
+  * implications:
+    * highlight the requirements for carrying out the principle in terms of resources, costs and activities
+    * state the impact to business and consequences of adopting the principle
+    * answer the "how does this affect me?" question of the reader
+
