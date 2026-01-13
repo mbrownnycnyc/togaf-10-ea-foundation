@@ -466,11 +466,11 @@
 ### relationship between viewpoint and view
 * every architecture view has an associated architecture viewpoint that describes it, at least implicitly.
 
-## ADM Phase: Preliminary Phase
+# ADM Phase: Preliminary Phase
 
 ![](2026-01-13-10-07-28.png)
 
-### purpose & objectives
+## purpose & objectives
 * preparation and initition activities to create an Architecture Capability
   * what do we need to acheive
   * what is the maturity target
@@ -486,7 +486,7 @@
 * definition of Architecture Principles
   * general guidelines for which each architecture project and architecture is oriented
 
-#### objectives
+### objectives
 1. determine the architecture capabilities desired by the organization
   * review the organiztional context for conducting EA
   * identify and scope the lements of the enterprise organizations affects by the architecture Capability
@@ -505,7 +505,7 @@
   * series guide: TOGAF Leaders guide to establishing and evolving an EA capability
     * only build to the scale needed
 
-### Steps for Preliminary Phase
+## Steps for Preliminary Phase
 > [!IMPORTANT]
 > steps are not part of the cirriculum specifically for part 1, but are included in cirriculum of part 2
 
@@ -518,14 +518,14 @@
 5. *Tailor* the *TOGAF framework* and, if any, other selected architecture *frameworks*
 6. develop a *strategy and implementation plan* for *tools and techniques*
 
-### Architecture Principles (step 4 of the preliminary phase)
+## Architecture Principles (step 4 of the preliminary phase)
 
 > [!NOTE]
 > EXAM GOAL
 > briefly describe the TOGAF Standard deliverables created and consumerd in different TOGAF ADM phases: architecture principles
 > explain what makes a good Architecture Principle
 
-#### what/why is an architecture principle
+### what/why is an architecture principle
 * guide architecture development as part of the Principles Catalog
 * define the underlying general rules & guidelines for the use of resources and assets
 * form the basis for making architecture decisions
@@ -539,13 +539,13 @@
 * altered and removed through an amendment process after initial ratification
 * few in number, future oriented and endorced & championed by senior management
 
-#### Types of Architecture Principles
+### Types of Architecture Principles
 * Business Principles
 * Data Principles
 * Application Principles
 * Technology Principles
 
-#### principle hierarchy
+### principle hierarchy
 
 ![](2026-01-13-11-01-58.png)
 
@@ -554,29 +554,28 @@
 * at each hierarchical level, the principles will be elaborate on the principles inhereited from the level above
 * a lower-level principle cannot overstep the boundaries of a higher-level principle
 
-#### principle key domains
+### principle key domains
 
 * principles may be established within different domains and at different levels
 
-##### enterprise principles
+#### enterprise principles
 * provide a basis for decision-making throughout an enterprise
 * inform & support how an organization sets about fulfilling its msision
 * are a key element in a successful Architectur egovernance strategy
 * can have subsidiary principles within a business or organizational unit
 
-##### architecture principles
+#### architecture principles
 * relate to Architecture Work
 * govern the architecture process (i.e. development, maintenance and use of the Enterprise Architecture)
 * embody the spirit and thinking of existing Enterprise Principles
 
-#### structure
+### structure
 > [!NOTE]
 > EXAM GOAL
 > explain the recommended template for Architecture Principles
 
 * example:
-
-  ![](2026-01-13-11-39-44.png)
+  ![](2026-01-13-11-44-54.png)
 
 * a template helps to define and use principles in a standard way
 * templates should contain:
@@ -594,3 +593,63 @@
     * state the impact to business and consequences of adopting the principle
     * answer the "how does this affect me?" question of the reader
 
+### characteristics
+* five criteria distinguish a good set of principles:
+  * complete: each principle is defined and every situtation prevceived is covered
+  * consistent: expressed in a way that allows a balance of flexible interpretations without contradictions
+  * stable: principles should be enduring, yet able to accommodate changes
+  * understandable: intentions of the principles are clear, understandable & unambiguous so that (unintended) violations are minimized
+  * robust: enable good quality and consistent decisions about architectures, plans enforceable policies as well as standards to be created in complex situations
+
+### purpose
+* the enduring guidelines address different purposes
+  * enable decision-making: set precedence during trade-off discussions and authority of tie-breaking
+  * align the enterprise: take subjectivity & bias out and drive critical conversations aligned with the enterprise's value
+  * support governance: ensure that the right decisions are made at the right time with the right decision-makers and that these decisions are monitored
+  * reflect value & culture: provide an understanding abotu the enterprise's culture and values as well as an insight into how well the enterprise reacts to change
+
+### relating architecture principles to the TOGAF ADM
+
+> [!NOTE]
+> EXAM GOAL
+> briefly describe the TOGAF Standard deliverables created and consumed in different TOGAF ADM Phases: Architecture Principles
+
+* principles are created in the preliminary phase and used in Phases: A, B, C, D
+  * in the preliminary phase: identity, define and establish architecture principles based on eenterprise pinciples and organizational context
+  * in Phase A Architecture Vision: review, clarify (especially definition & areas of ambiguity), elaborate & confirm existing Principles (or generate new principles, if necessary)
+  * in Phases B (business architecture), C (information systems architecture), D (technology architecture): review & validate (or generate new principles, if necessary) Principles and ensure alignment between the Target Architectures and Architecture Principles.
+
+## Preliminary Phase Approach
+* the phase defines "where, what, why, who and how we do architecture"
+  * defines the enterprise
+    * highest level description of an organization used to identify the boundary of the enterprise architecture
+    * maybe a single organization, but may be more or less (like a BU)
+  * identify key drivers and the organizational context
+    * understanding the context surrounding the architecture framework allows you to make effetive and informed decisions about the framework for architecture to be used.
+  * define the requirements for architecture work
+    * i.e.: budgeting for EA? who are the stakeholders and what are the key issues, concerns and requirements? how formal or informal is the culture of your enterprise?
+  * define the Architecture Principles
+    * form part of the constraints
+  * define the framework to be used
+    * integrate APs to the frameworks
+  * define the relationships between management frameworks
+    * do you have other frameworks in use?  Project Management?  Otherwise frameworks?
+  * evaluate the Enterprise Architecture maturity
+    * execute at some given interval
+  * determine the Architecture Capability desired by the organization
+
+## ADM Preliminary Phase: Quiz
+1. complete this sentence: For Architecture Principles "expressed in a way that allows a balance of flexible interpretation without contradictions" stands for the criteria: 
+  * "consistent": TOGAF ADM Techniques Chapter 2: Architecture Principles, 2.4 Developing Architecture Principles, 2.4.1 Qualifies of Principles:
+    * Consistent means: consistent the set of principles must be express in a way that allows a balance of interpretations.  Principles should not be contradictory to the point where adhering to one principle would violate the spirit of another.  Every word in a principle statement should be carefully chosen to allow consistent yet flexible interpretation.
+2. Which type of principle informs and supports how an organization sets about fulfilling its mission?
+  * "Enterprise Principle": TOGAF Standard Introduction and core concepts: Chapter 3 core concepts, 3.8 Architecture Principles:
+    * Enterprise Principles provide a basis for decision-making throughout an enterprise and inform how the organization sets about fulfilling its mission.
+3. Which of the following is not an objective of TOGAF Architecture Development Method (ADM) Preliminary Phase?
+  * "Develop a high-level aspirational vision of the capabilities and business value to be delivered": TOFAG Standard - architecture development method: chapter 2 prliminary phase, 2.1 objectives
+    * Develop a high-level aspiration vision of the cpaabilities and business value to be delivered in an objective of Phase A: Archtiecture Vision, and is not part of the Preliminary Phase.
+  
+# Phase A: Architecture Vision
+> [!IMPORTANT]
+> Stopped Jan 13 2026 , Section 4, video 21
+> https://group1001.udemy.com/course/togaf-10-ea-foundation/learn/lecture/43351638#overview 
